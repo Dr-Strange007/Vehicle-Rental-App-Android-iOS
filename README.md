@@ -1,6 +1,6 @@
-# rentify app
+# Cross-Platform Vehicle Rental App (Android & iOS)
 
-Rentify - Online Car Rental Booking System Full Features List: 
+Online Rental Car Booking System Full Features List: 
 - 1 Car Finder
 - 2 Cab Booking
 - 3 Taxi Booking
