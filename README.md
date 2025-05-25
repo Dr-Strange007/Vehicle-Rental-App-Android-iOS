@@ -17,7 +17,21 @@ Rentify - Online Car Rental Booking System Full Features List:
 - 14 User Profile
 - 15 Push Notification
 
+Installation Guide:
 
+Clone or Download:
+1. Clone this git repository or download the zip file.
+2. Open the project directory in an IDE (VS Code/ Android Studio) 
+3. run 'flutter pub get' in the IDE terminal.
+4. Set Domain:
+Domain Configuration: Navigate to /lib/backend/services/api_endpoint.dart file and replace the domain with your own. Ensure to update all API endpoints with your domain.
+Replace "PUT_YOUR_BASE_URL_HERE" in the mainDomain field. The app won’t work without a valid project website link. ("https://rentify.appdevs.net" was used here as the demo testing URL)
+5. Run with 'flutter run' on a simulator or physical device(Recommended)
+
+
+
+ScreenShots:
+ 
 ![WhatsApp Image 2025-05-25 at 18 02 04](https://github.com/user-attachments/assets/48e6addb-ca1a-4358-ab78-538b799d0c9d) ![WhatsApp Image 2025-05-25 at 18 02 04 (1)](https://github.com/user-attachments/assets/c1d9de0e-a913-496f-a5f3-026d1ef07fad)
 
 ![WhatsApp Image 2025-05-25 at 18 02 05](https://github.com/user-attachments/assets/1e6d4382-8238-4601-8fdc-18828a450a2b)![WhatsApp Image 2025-05-25 at 18 02 06](https://github.com/user-attachments/assets/9f0710d7-1895-45ce-a194-437133bcccd5) ![WhatsApp Image 2025-05-25 at 18 02 06 (1)](https://github.com/user-attachments/assets/b932f3d9-2554-440e-b734-b2dde80da918)
@@ -33,8 +47,10 @@ Rentify - Online Car Rental Booking System Full Features List:
 ![WhatsApp Image 2025-05-25 at 18 02 08 (1)](https://github.com/user-attachments/assets/b68666a5-7b2a-458a-aef7-4008e3ed5f3d) ![WhatsApp Image 2025-05-25 at 18 02 08 (2)](https://github.com/user-attachments/assets/f5e97bda-6a8d-402a-9b91-68f0c5e9a443)
 
 
-
-
+TO-DO:
+Map integration: 
+1. type an address → see it centred on Google Maps
+2. tap / drag a marker on map to choose the exact pickup or destination point
 
 
 
