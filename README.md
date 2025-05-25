@@ -25,7 +25,7 @@ Clone or Download:
 3. run 'flutter pub get' in the IDE terminal.
 4. Set Domain:
 Domain Configuration: Navigate to /lib/backend/services/api_endpoint.dart file and replace the domain with your own. Ensure to update all API endpoints with your domain.
-Replace "PUT_YOUR_BASE_URL_HERE" in the mainDomain field. The app won’t work without a valid project website link. ("https://rentify.appdevs.net" was used here as the demo testing URL)
+Replace "PUT_YOUR_BASE_URL_HERE" in the mainDomain field. The app won’t work without a valid project website link. ("https://rentify.appdevsdotnet" was used here as the demo testing URL)
 5. Run with 'flutter run' on a simulator or physical device(Recommended)
 
 
@@ -48,9 +48,9 @@ ScreenShots:
 
 
 TO-DO:
-Map integration: 
-1. type an address → see it centred on Google Maps
-2. tap / drag a marker on map to choose the exact pickup or destination point
+ Map integration: 
+ 1. type an address → see it centred on Google Maps
+ 2. tap / drag a marker on map to choose the exact pickup or destination point
 
 
 
